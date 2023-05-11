@@ -104,7 +104,7 @@ p{
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/resources/ba1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(resources/ba1.jpg);
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
@@ -242,7 +242,7 @@ img {
     float: left;
     width: 50%;
     height: 100%;
-    background: url(/resources/honolulu.jpg);
+    background: url(resources/honolulu.jpg);
     background-size: cover;
     background-position: center;
 }
