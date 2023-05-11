@@ -101,14 +101,12 @@ p{
 }
 
 .banner {
-    /**width: 100vw;**/
     height: 70vh;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: flex-end;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/resources/ba1.jpg);
-    /**: url(/resources/ba1.jpg);**/
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
