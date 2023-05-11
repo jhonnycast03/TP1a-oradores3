@@ -4,21 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/style.css">
     <title>TP1a</title>
   </head>
   <body>
     <header>
       <div class="mainnav">
         <div class="nav2">
-          <img src="  /resources/codoacodo.png" id="codoacodo" style="float: left" />
-          <h1 id="conf">Conf BsAs</h1>
+          <img src="  /resources/codoacodo.png" alt="logotipo codo a codo" style="float: left" />
+          <h1 class="conf">Conf BsAs</h1>
           <ul>
-            <li><a class="" href="#laconferencia">La Conferencia </a></li>
-            <li><a id="navtext" href="#oradores">Los oradores</a></li>
-            <li><a id="navtext" href="#section2">El lugar y fecha</a></li>
-            <li><a id="navtext" href="#conv">Conviertete en orador </a></li>
-            <li><a id="tick" class="compra" href="#laconferencia">Comprar tickets</a></li>
+            <li><a class="textoprimero" href="#">La Conferencia </a></li>
+            <li><a class="navtext" href="#oradores">Los oradores</a></li>
+            <li><a class="navtext" href="#section2">El lugar y fecha</a></li>
+            <li><a class="navtext" href="#conv">Conviertete en orador </a></li>
+            <li><a class="tick" href="#laconferencia">Comprar tickets</a></li>
           </ul>
         </div>
       </div>
@@ -36,27 +36,26 @@
 
           <div>
             <button class="quiero">
-              <p id="botones">Quiero ser orador</p>
+              <p class="botones">Quiero ser orador</p>
             </button>
-            <button class="comprar"><p id="botones">Comprar Tickets</p></button>
+            <button class="comprar"><p class="botones">Comprar Tickets</p></button>
           </div>
         </div>
       </div>
     </header>
 
     <main>
-      <div id="text">
-        <p class="conocer">CONOCE A LOS HORADORES</p>
-        <h1 id="oradores">ORADORES</h1>
+      <div>
+        <p class="conocer">CONOCE A LOS ORADORES</p>
+        <h1 >ORADORES</h1>
       </div>
       <section class="card">
-        <!--CARDS DE ORADORES-->
         <div class="card1">
           <img src="/resources/steve.jpg" alt="steve" />
           <div class="card2">
             <div class="habilidad">
-              <p class="text3" href="#"><b>JavaScrip</b></p>
-              <p class="text4" href="#"><b>React</b></p>
+              <p class="text3"><b>JavaScrip</b></p>
+              <p class="text4"><b>React</b></p>
             </div>
             <h2>Steve Jobs</h2>
             <br />
@@ -72,8 +71,8 @@
           <img src="/resources/bill.jpg" alt="bill" />
           <div class="card2">
             <div class="habilidad">
-              <p class="text3" href="#"> <b>JavaScrip</b></p>
-              <p class="text4" href="#"><b>React</b></p>
+              <p class="text3"> <b>JavaScrip</b></p>
+              <p class="text4"><b>React</b></p>
             </div>
             <h2>Bill Gates</h2>
             <br />
@@ -89,8 +88,8 @@
           <img src="/resources/ada.jpeg" alt="ada" />
           <div class="card2">
             <div class="habilidad">
-              <p class="text5" href="#"><b>Negocios</b></p>
-              <p class="text6" href="#"><b>Startups</b></p>
+              <p class="text5"><b>Negocios</b></p>
+              <p class="text6"><b>Startups</b></p>
             </div>
             <h2>Ada Lovelace</h2>
             <br />
@@ -103,14 +102,13 @@
           </div>
         </div>
       </section>
-      <section id="section2">
-        <!--2 IMGs PLAYA + Texto-->
+      <section class="section2">
         <div class="ubicacion">
           <div class="ubicacion1"></div>
           <div class="ubicacion2">
             <p class="mes">Bs As Octubre</p>
 
-            <p class="mes1">
+            <p class="texto">
               Buenos Aires es la provincia y localidad más grande del estado de
               Argentina en los Estados Unidos. Honolulu es la más sureña de
               entre las principales ciudades estadounidenses. Aunque el nombre
@@ -119,7 +117,7 @@
               ciudad-condado consolidad que cubre toda la ciudad
               (aproximadamente 600km² de superficie).
             </p>
-            <button class="conoce-mas"><p id="conocemas">Conocé más</p></button>
+            <button class="conoce-mas"><p class="conocemas">Conocé más</p></button>
           </div>
         </div>
       </section>
@@ -127,38 +125,32 @@
 
     <footer>
       <div class="titulos">
-        <p id="conv">CONVIERTETE EN UN</p>
+        <p class="conv">CONVIERTETE EN UN</p>
         <h1>ORADOR</h1>
-        <p id="conv1">
-          Anótate como orador para dar una <u>charla ignite</u>. Cuéntanos de
-          qué quieres hablar
-        </p>
+        <p class="conv1">
+          Anótate como orador para dar una <u>charla ignite</u>. Cuéntanos de qué quieres hablar</p>
         <div>
-          <input type="text" placeholder="Nombre" id="name" name="Nombre" />
-          <input type="text" placeholder="Apellido" id="lastname" name="Apellido"/>
+          <input type="text" placeholder="Nombre" class="name" name="Nombre" />
+          <input type="text" placeholder="Apellido" class="lastname" name="Apellido"/>
         </div>
         <br />
         <div>
-          <textarea
-            id="message"
-            placeholder="Sobre qué quieres"
-            name="message"
-          ></textarea>
-          <p id="titcharla">Recuerda incluir un título para tu charla</p>
+          <textarea class="message" placeholder="Sobre qué quieres hablar" name="message"></textarea>
+          <p class="titcharla">Recuerda incluir un título para tu charla</p>
         </div>
         <div>
-          <button type="submit" id="enviar">Enviar</button>
+          <button type="submit" class="enviar">Enviar</button>
         </div>
       </div>
       <div class="pie">
         <ul>
-          <li> <a id="pietext" href="#">Preguntas frecuentes</a></li>
-          <li> <a id="pietext" href="#">Contáctanos</a></li>
-          <li> <a id="pietext" href="#">Prensa</a></li>
-          <li> <a id="pietext" href="#">Conferencias</a></li>
-          <li> <a id="pietext" href="#">Términos y condiciones</a></li>
-          <li> <a id="pietext" href="#">Privacidad</a></li>
-          <li> <a id="pietext" href="#">Estudiantes</a></li>
+          <li> <a  href="#">Preguntas frecuentes</a></li>
+          <li> <a  href="#">Contáctanos</a></li>
+          <li> <a  href="#">Prensa</a></li>
+          <li> <a  href="#">Conferencias</a></li>
+          <li> <a  href="#">Términos y condiciones</a></li>
+          <li> <a  href="#">Privacidad</a></li>
+          <li> <a  href="#">Estudiantes</a></li>
         </ul>
       </div>
     </footer>
